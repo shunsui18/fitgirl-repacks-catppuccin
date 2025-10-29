@@ -1,12 +1,13 @@
-/*
+/* ==UserStyle==
 @name           FitGirl Repacks Catppuccin
 @namespace      github.com/shunsui18/fitgirl-repacks-catppuccin
 @version        1.0.0
-@description    A Catppuccin Mocha theme for FitGirl Repacks
-@license        GPL-3.0
+@description    A custom Catppuccin Mocha-inspired FitGirl Repacks theme.
 @author         shunsui18
-*/
-
+@homepageURL    https://github.com/shunsui18/fitgirl-repacks-catppuccin
+@supportURL     https://github.com/shunsui18/fitgirl-repacks-catppuccin/issues
+@license        GPL-3.0
+==/UserStyle== */
 
 @-moz-document url-prefix("https://fitgirl-repacks.site/") {
 /* Catppuccin Mocha Palette */
