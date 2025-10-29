@@ -8,7 +8,7 @@ A custom Catppuccin Mocha-inspired [FitGirl Repacks](https://fitgirl-repacks.sit
 <b><u><h1>Installation Instructions:</h1></u></b>
 <ul>
     <li>Install the Stylus Extension on your browser.</li>
-    <li>Click the "Install" button on the theme download page ( https://userstyles.world/style/24910/fitgirl-repacks-catppuccin ).</li>
+    <li>Click the "Install" button on the [theme download page](https://userstyles.world/style/24910/fitgirl-repacks-catppuccin) of [UserStyles.org](https://userstyles.world/) website.</li>
     <h3>or</h3>
     <li>Go to Stylus settings.</li>
     <li>Click on the + (Write new style) icon.</li>
