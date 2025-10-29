@@ -8,7 +8,7 @@ A custom Catppuccin Mocha-inspired [FitGirl Repacks](https://fitgirl-repacks.sit
 # **Installation Instructions:**
 - Install the Stylus Extension on your browser.
 - Click the **"Install"** button on the [theme download page](https://userstyles.world/style/24910/fitgirl-repacks-catppuccin) of [UserStyles.world](https://userstyles.world "Go to UserStyles.world hompage") website.
-  ##**or**
+## **or**
 - Go to Stylus settings.
 - Click the **+ (Write new style)** icon.
 - Copy the CSS code from the `.CSS` file located in this repository.
