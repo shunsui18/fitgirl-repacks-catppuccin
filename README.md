@@ -2,17 +2,15 @@
 
 A custom Catppuccin Mocha-inspired [FitGirl Repacks](https://fitgirl-repacks.site "Go to FitGirl Repacks homepage") theme.
 
-<b><u><h3>Preview:</h3></u></b>
+### **Preview:**
 ![Catppuccin Preview](https://github.com/shunsui18/fitgirl-repacks-catppuccin/blob/main/fitgirl-repacks-catppuccin-preview.png)
 
-<b><u><h1>Installation Instructions:</h1></u></b>
-<ul>
-    <li>Install the Stylus Extension on your browser.</li>
-    <li>Click the "Install" button on the [theme download page](https://userstyles.world/style/24910/fitgirl-repacks-catppuccin) of [UserStyles.org](https://userstyles.world/) website.</li>
-    <h3>or</h3>
-    <li>Go to Stylus settings.</li>
-    <li>Click on the + (Write new style) icon.</li>
-    <li>Copy the CSS code from the ".CSS" file located in this repository.</li>
-    <li>Paste it inside the Stylus editor.</li>
-    <li>Click "Save"</li>
-</ul>
+### **Installation Instructions:**
+- Install the Stylus Extension on your browser.
+- Click the **"Install"** button on the [theme download page](https://userstyles.world/style/24910/fitgirl-repacks-catppuccin) of [UserStyles.world](https://userstyles.world/) website.
+- **or**
+- Go to Stylus settings.
+- Click the **+ (Write new style)** icon.
+- Copy the CSS code from the `.CSS` file located in this repository.
+- Paste it inside the Stylus editor.
+- Click **"Save"**
