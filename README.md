@@ -1,6 +1,6 @@
 # fitgirl-repacks-catppuccin
 
-A custom Catppuccin Mocha-inspired FitGirl Repacks theme.
+A custom Catppuccin Mocha-inspired [FitGirl Repacks](https://fitgirl-repacks.site) theme.
 
 <b><u><h3>Preview:</h3></u></b>
 ![Catppuccin Preview](https://github.com/shunsui18/fitgirl-repacks-catppuccin/blob/main/fitgirl-repacks-catppuccin-preview.png)
