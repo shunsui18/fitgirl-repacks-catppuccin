@@ -6,7 +6,7 @@ A custom Catppuccin Mocha-inspired [FitGirl Repacks](https://fitgirl-repacks.sit
 ![fitgirl-rpacks-catppuccin-preview](https://github.com/shunsui18/fitgirl-repacks-catppuccin/blob/main/fitgirl-repacks-catppuccin-preview.png)
 
 # **External Resources**
-- [Stylus](https://github.com/openstyles/stylus "Go to Stylus GitHub page") - This is a browser extension that lets users customize the appearance of websites using custom CSS themes and styles. It allows you to apply, edit, and manage user-created styles to change how sites look and feel directly in your browser.
+- [Stylus](https://github.com/openstyles/stylus "Go to Stylus GitHub page") - This is a browser extension that lets users customise the appearance of websites using custom CSS themes and styles. It allows you to apply, edit, and manage user-created styles to change how sites look and feel directly in your browser.
   ### **Installation**
     - From [Firefox ADD-ONS](https://addons.mozilla.org/firefox/addon/styl-us/).
     - From [Chrome Web Store](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
