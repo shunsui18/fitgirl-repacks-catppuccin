@@ -1,4 +1,4 @@
-# fitgirl-repacks-catppuccin
+# FitGirl Repacks Catppuccin
 
 A custom Catppuccin Mocha-inspired [FitGirl Repacks](https://fitgirl-repacks.site "Go to FitGirl Repacks homepage") theme.
 
