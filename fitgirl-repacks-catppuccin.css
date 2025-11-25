@@ -8,9 +8,11 @@
 @supportURL     https://github.com/shunsui18/fitgirl-repacks-catppuccin/issues
 @license        GPL-3.0
 ==/UserStyle== */
-@-moz-document url-prefix("https://fitgirl-repacks.site/") {
+@-moz-document url-prefix("https://fitgirl-repacks.site/")
+{
 	/* Catppuccin Mocha Palette */
-	:root {
+	:root
+	{
 		--rosewater: #f5e0dc;
 		--flamingo: #f2cdcd;
 		--pink: #f5c2e7;
@@ -40,81 +42,99 @@
 	}
 }
 
-@-moz-document domain("fitgirl-repacks.site") {
+@-moz-document domain("fitgirl-repacks.site")
+{
 	/* Site Alignment Resizeing */
-	* {
+	*
+	{
 		transition: all 0.2s ease-in-out;
 	}
 
-	.content-sidebar {
+	.content-sidebar
+	{
 		padding-left: 60px;
 	}
 
 	site-title a,
-	.widget h1 {
+	.widget h1
+	{
 		text-transform: uppercase !important;
 	}
 
-	.secondary-navigation {
+	.secondary-navigation
+	{
 		margin-bottom: 20px !important;
 	}
 
-	#search-2 {
+	#search-2
+	{
 		display: none !important;
 	}
 
 	.nav-menu,
-	.secondary-navigation {
+	.secondary-navigation
+	{
 		font-size: 14px !important;
 	}
 
-	.search-field {
+	.search-field
+	{
 		width: 100% !important;
 		padding: 8px 10px 7px !important;
 		font-size: 18px !important;
 	}
 
-	#blog_subscription-2 > h1 {
+	#blog_subscription-2 > h1
+	{
 		text-indent: -9999px;
 		line-height: 0;
 	}
 
-	#blog_subscription-2 > h1:after {
+	#blog_subscription-2 > h1:after
+	{
 		content: "Subscribe";
 		text-indent: 0;
 		display: block;
 		line-height: initial;
 	}
 
-	.secondary-navigation .menu-item-1707 > a {
+	.secondary-navigation .menu-item-1707 > a
+	{
 		text-indent: -9999px;
 		line-height: 0;
 	}
 
-	.secondary-navigation .menu-item-1707 > a:after {
+	.secondary-navigation .menu-item-1707 > a:after
+	{
 		content: "Troubleshooting";
 		text-indent: 0;
 		display: block;
 		line-height: initial;
 	}
 
-	.widget h1 {
+	.widget h1
+	{
 		font-size: 18px !important;
 		font-weight: 400 !important;
 	}
 
-	.site-title {
+	.site-title
+	{
 		font-weight: 900 !important;
 	}
 
-	#page.site {
+	#page.site
+	{
 		margin: 0 auto !important;
 	}
 
-	#page.site {
+	#page.site
+	{
 		max-width: 1600px !important;
 	}
-	header.site-header {
+
+	header.site-header
+	{
 		max-width: 1600px !important;
 	}
 
@@ -122,15 +142,18 @@
 	.site-content .entry-content,
 	.site-content .entry-summary,
 	.site-content .entry-meta,
-	.page-content {
+	.page-content
+	{
 		max-width: 1200px !important;
 	}
 
-	.secondary-navigation {
+	.secondary-navigation
+	{
 		display: none !important;
 	}
 
-	a[href = "https://fitgirl-repacks.site/games-with-my-personal-pink-paw-award/"] {
+	a[href = "https://fitgirl-repacks.site/games-with-my-personal-pink-paw-award/"]
+	{
 		background-image: linear-gradient(rgba(71, 8, 79, .67), rgba(242, 119, 234, .44)),
 		url("https://fitgirl-repacks.site/wp-content/uploads/2022/08/paw.png") !important;
 		background-size: 100% !important;
@@ -138,64 +161,77 @@
 		background-repeat: no-repeat !important;
 	}
 
-	div[style *= "garold3.jpg"] {
+	div[style *= "garold3.jpg"]
+	{
 		border-radius: 25px !important;
 	}
 
-	.entry-content p {
+	.entry-content p
+	{
 		padding-bottom: 20px;
 	}
 }
 
-@-moz-document domain("fitgirl-repacks.site") {
+@-moz-document domain("fitgirl-repacks.site")
+{
 	/* Site Color Customization */
-	::selection {
+	::selection
+	{
 		background: var(--text);
 		color: var(--crust);
 	}
 
 	.widget a,
 	.entry-title a,
-	.wpcu_block_title {
+	.wpcu_block_title
+	{
 		color: var(--text);
 	}
 
 	.cat-links a,
 	.entry-meta a,
-	p {
+	p
+	{
 		color: var(--subtext0);
 	}
 
 	a,
 	a:hover,
-	.widget a:hover {
+	.widget a:hover
+	{
 		color: white;
 	}
 
 	.cat-links:hover a,
 	.entry-title:hover a,
-	.entry-meta:hover a {
+	.entry-meta:hover a
+	{
 		color: var(--red);
 	}
 
-	#secondary {
+	#secondary
+	{
 		color: var(--subtext0);
 	}
 
-	body.custom-background {
+	body.custom-background
+	{
 		background-color: var(--base);
 	}
 
-	div#secondary {
+	div#secondary
+	{
 		background-color: var(--base);
 	}
 
-	.header-main {
+	.header-main
+	{
 		background-color: var(--base);
 	}
 
 	.search-toggle,
-	.search-toggle:before {
+	.search-toggle:before
+	{
 		color: var(--peach);
 		background-color: var(--yellow) !important;
 		border-radius: 25px;
@@ -204,17 +240,20 @@
 	.search-toggle:hover,
 	.search-toggle:hover:before,
 	.search-toggle.active,
-	.search-toggle.active:before {
+	.search-toggle.active:before
+	{
 		color: var(--crust) !important;
 		background-color: var(--red) !important;
 		border-radius: 25px;
 	}
 
-	.search-box {
+	.search-box
+	{
 		background-color: var(--base) !important;
 	}
 
-	input.search-field {
+	input.search-field
+	{
 		background: var(--red) !important;
 		border-bottom: solid 1px var(--crust) !important;
 		border-radius: 25px;
@@ -223,29 +262,34 @@
 	.menu-item:hover > a,
 	.menu-item:focus > a,
 	.menu-item.focus > a,
-	.menu-item.active > a {
+	.menu-item.active > a
+	{
 		background-color: var(--red) !important;
 		color: var(--crust) !important;
 		border-radius: 150px;
 	}
 
-	.menu-item {
+	.menu-item
+	{
 		padding-right: 5px;
 		padding-left: 5px;
 	}
 
-	.sub-menu:hover {
+	.sub-menu:hover
+	{
 		padding-left: 5px;
 		padding-right: 5px;
 	}
 
-	.menu-item > a {
+	.menu-item > a
+	{
 		background-color: var(--blue) !important;
 		color: white;
 		border-radius: 150px;
 	}
 
-	.sub-menu {
+	.sub-menu
+	{
 		background-color: var(--blue) !important;
 		padding-top: 5px;
 		padding-bottom: 5px;
@@ -253,7 +297,8 @@
 	}
 
 	#primary.content-area,
-	.site:before {
+	.site:before
+	{
 		background-color: var(--base);
 	}
 
@@ -261,42 +306,50 @@
 	.site-content .entry-meta,
 	.site-content .entry-content,
 	.site-content .entry-summary,
-	.page-content {
+	.page-content
+	{
 		background-color: var(--surface2);
 		border-radius: 25px;
 	}
 
 	.site-title a,
-	.widget h1 {
+	.widget h1
+	{
 		color: var(--text) !important;
 	}
 
 	.swiper-button-prev:after,
 	.swiper-rtl .swiper-button-next:after,
 	.swiper-button-next:after,
-	.swiper-rtl .swiper-button-next:after {
+	.swiper-rtl .swiper-button-next:after
+	{
 		background-color: var(--red);
 		color: var(--crust);
 		border-radius: 25px;
 	}
 
-	div[style *= "color: #ff0000"] {
+	div[style *= "color: #ff0000"]
+	{
 		color: var(--red) !important;
 	}
 
-	span[style *= "color: #808080"] {
+	span[style *= "color: #808080"]
+	{
 		color: var(--overlay2) !important;
 	}
 
-	h3 span[style *= "color: #339966"] {
+	h3 span[style *= "color: #339966"]
+	{
 		color: var(--blue) !important;
 	}
 
-	li span[style *= "color: black"] {
+	li span[style *= "color: black"]
+	{
 		color: var(--subtext0) !important;
 	}
 
-	li span[style *= "color: red"] {
+	li span[style *= "color: red"]
+	{
 		color: var(--red) !important;
 	}
 
@@ -304,161 +357,197 @@
 	button,
 	input,
 	select,
-	textarea {
+	textarea
+	{
 		color: var(--subtext1);
 	}
 
-	.su-spoiler-style-fancy > .su-spoiler-title {
+	.su-spoiler-style-fancy > .su-spoiler-title
+	{
 		background: var(--red);
 		color: var(--crust);
 	}
 
-	.entry-meta .tag-links a {
+	.entry-meta .tag-links a
+	{
 		background-color: var(--yellow);
 		color: var(--peach);
 	}
 
-	.entry-meta .tag-links a:before {
+	.entry-meta .tag-links a:before
+	{
 		border-right: 8px solid var(--yellow);
 	}
 
-	.entry-meta .tag-links a:after {
+	.entry-meta .tag-links a:after
+	{
 		background-color: var(--peach);
 	}
 
-	.entry-meta .tag-links a:hover {
+	.entry-meta .tag-links a:hover
+	{
 		background-color: var(--blue);
 		color: white;
 	}
 
-	.entry-meta .tag-links a:hover:before {
+	.entry-meta .tag-links a:hover:before
+	{
 		border-right: 8px solid var(--blue);
 	}
 
-	.entry-meta .tag-links a:hover:after {
+	.entry-meta .tag-links a:hover:after
+	{
 		background-color: white;
 	}
 
-	.widgettitle {
+	.widgettitle
+	{
 		color: var(--text);
 	}
 
-	a[href = "https://fitgirl-repacks.site/popular-repacks/"] {
+	a[href = "https://fitgirl-repacks.site/popular-repacks/"]
+	{
 		border-color: var(--yellow) !important;
 		color: white !important;
 	}
 
-	a[href = "https://fitgirl-repacks.site/popular-repacks-of-the-year/"] {
+	a[href = "https://fitgirl-repacks.site/popular-repacks-of-the-year/"]
+	{
 		border-color: var(--red) !important;
 		color: white !important;
 	}
 
-	a[href = "https://fitgirl-repacks.site/updates-list/"] {
+	a[href = "https://fitgirl-repacks.site/updates-list/"]
+	{
 		border-color: var(--blue) !important;
 		color: white !important;
 	}
 
-	a[href = "https://fitgirl-repacks.site/category/updates-digest/"] {
+	a[href = "https://fitgirl-repacks.site/category/updates-digest/"]
+	{
 		border-color: var(--blue) !important;
 		color: white !important;
 	}
 
-	a[href = "https://fitgirl-repacks.site/games-with-my-personal-pink-paw-award/"] {
+	a[href = "https://fitgirl-repacks.site/games-with-my-personal-pink-paw-award/"]
+	{
 		border-color: var(--pink) !important;
 		color: white !important;
 	}
 
-	b[style *= "color: red"] {
+	b[style *= "color: red"]
+	{
 		color: var(--red);
 	}
 
-	.su-spoiler-style-fancy {
+	.su-spoiler-style-fancy
+	{
 		background: var(--blue);
 	}
 
-	div[style *= "background-color: #9aff612e"] {
+	div[style *= "background-color: #9aff612e"]
+	{
 		background-color: var(--surface1) !important;
 		border-color: var(--blue) !important;
 	}
 
-	.paging-navigation {
+	.paging-navigation
+	{
 		border-top: 5px solid transparent;
 	}
 
-	.paging-navigation .page-numbers.current {
+	.paging-navigation .page-numbers.current
+	{
 		border-top: 5px solid var(--yellow);
 	}
 
-	.paging-navigation .page-numbers:hover {
+	.paging-navigation .page-numbers:hover
+	{
 		border-top: 5px solid var(--yellow);
 	}
 
-	.loop-pagination .page-numbers {
+	.loop-pagination .page-numbers
+	{
 		color: var(--surface1);
 	}
 
-	.loop-pagination .page-numbers:hover {
+	.loop-pagination .page-numbers:hover
+	{
 		color: var(--overlay0);
 	}
 
-	.loop-pagination .page-numbers.current {
+	.loop-pagination .page-numbers.current
+	{
 		color: var(--text);
 	}
 
-	.loop-pagination .page-numbers.dots {
+	.loop-pagination .page-numbers.dots
+	{
 		color: var(--text);
 	}
 
-	.paging-navigation .page-numbers.dots:hover {
+	.paging-navigation .page-numbers.dots:hover
+	{
 		border-top: 5px solid transparent;
 	}
 
-	#supplementary {
+	#supplementary
+	{
 		background-color: var(--base);
 	}
 
-	.site-info {
+	.site-info
+	{
 		background-color: var(--surface2);
 		color: var(--text);
 	}
 
-	.site-info a:hover {
+	.site-info a:hover
+	{
 		color: white;
 	}
 
-	.su-spoiler-content b {
+	.su-spoiler-content b
+	{
 		color: var(--crust);
 	}
 
-	.su-spoiler-content {
+	.su-spoiler-content
+	{
 		color: white;
 	}
 
-	.post-navigation .meta-nav {
+	.post-navigation .meta-nav
+	{
 		color: var(--subtext0);
 	}
 
-	.post-navigation a {
+	.post-navigation a
+	{
 		color: var(--overlay0);
 	}
 
-	.post-navigation a:hover {
+	.post-navigation a:hover
+	{
 		color: white;
 	}
 
-	#jBnskDj9 {
+	#jBnskDj9
+	{
 		background-color: var(--red);
 		border: 1px solid var(--crust);
 		color: var(--crust);
 	}
 
-	.donatebutton {
+	.donatebutton
+	{
 		background-color: var(--crust) !important;
 		color: var(--text) !important;
 	}
 
 	#lbjoin,
-	#lbjoin2 {
+	#lbjoin2
+	{
 		background-color: var(--red) !important;
 		color: var(--crust) !important;
 	}
@@ -466,57 +555,96 @@
 	.site-navigation .current_page_item > a,
 	.site-navigation .current_page_ancestor > a,
 	.site-navigation .current-menu-item > a,
-	.site-navigation .current-menu-ancestor > a {
+	.site-navigation .current-menu-ancestor > a
+	{
 		color: white;
 	}
 
-	.site-main {
+	.site-main
+	{
 		background-color: var(--base);
 	}
 
-	.lcp_paginator li {
+	.lcp_paginator li
+	{
 		border: 1px solid var(--yellow) !important;
 		border-radius: 25px;
 	}
 
-	.lcp_paginator li a {
+	.lcp_paginator li a
+	{
 		color: var(--overlay1);
 	}
 
-	.lcp_paginator li a:hover {
+	.lcp_paginator li a:hover
+	{
 		color: white;
+	}
+
+	.su-spoiler-content.su-u-clearfix.su-u-trim > p
+	{
+		color: var(--text);
+	}
+
+	.su-spoiler-content.su-u-clearfix.su-u-trim > b
+	{
+		color: white;
+	}
+
+	.su-spoiler-content.su-u-clearfix.su-u-trim > p > b
+	{
+		color: white;
+	}
+
+	.su-spoiler-content.su-u-clearfix.su-u-trim li > b
+	{
+		color: white;
+	}
+
+	.su-spoiler-content.su-u-clearfix.su-u-trim li
+	{
+		color: var(--text);
 	}
 }
 
 @-moz-document url("https://fitgirl-repacks.site/updates-list/"),
-url("https://fitgirl-repacks.site/category/updates-digest/") {
+url("https://fitgirl-repacks.site/category/updates-digest/")
+{
 	.cat-links a,
 	.entry-meta a,
-	p {
+	p
+	{
 		color: var(--crust);
 	}
 
-	span[style *= "color: red"] {
+	span[style *= "color: red"]
+	{
 		color: var(--red) !important;
 	}
 }
 
-@-moz-document url("https://fitgirl-repacks.site/faq/") {
-	span[style *= "color: #ff0000"] {
+@-moz-document url("https://fitgirl-repacks.site/faq/")
+{
+	span[style *= "color: #ff0000"]
+	{
 		color: var(--red) !important;
 	}
 }
 
-@-moz-document url("https://fitgirl-repacks.site/repacks-troubleshooting/") {
-	span[style *= "color: #ff0000"] {
+@-moz-document url("https://fitgirl-repacks.site/repacks-troubleshooting/")
+{
+	span[style *= "color: #ff0000"]
+	{
 		color: var(--red) !important;
 	}
 
-	span[style *= "color: #008000"] {
+	span[style *= "color: #008000"]
+	{
 		color: var(--blue) !important;
 	}
 
-	span[style *= "color: red"] {
+	span[style *= "color: red"]
+	{
 		color: var(--red) !important;
 	}
 }
